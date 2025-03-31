@@ -1,0 +1,9 @@
+
+
+// bankAccounts 리스트를 나열하여 각각의 backAccount의 객체를 Text 위젯으로 변환하여 리스트로 반환
+ ...bankAccounts
+     .map((e) => Text('${e.accountTypeName ?? e.bank.name}'))
+ .toList(),
+
+// velocityX 패키지를 사용하여 Text 위젯을 생성
+ ("${account.balance}원").text.white.size(18).make(),
