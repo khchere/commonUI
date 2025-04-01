@@ -30,6 +30,7 @@ export 'package:common_ui/widget/webview/browser_webview_flutter.dart';
 export 'package:common_ui/widget/webview/s_webview_example.dart';
 export 'package:dio/dio.dart';
 export 'package:easy_localization/easy_localization.dart';
+export 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 export 'package:flutter_inappwebview/flutter_inappwebview.dart';
 export 'package:image_picker/image_picker.dart';
 export 'package:nav/dialog/dialog.dart';
