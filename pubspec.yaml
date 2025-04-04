@@ -23,10 +23,11 @@ dependencies:
   easy_localization_loader: ^2.0.2
 
   #data
-  uuid: ^4.5.1
   shared_preferences: ^2.5.2
+  path_provider: ^2.1.5 # 내부 경로 사용을 위한 패키지
   isar: ^3.1.0+1  #local db
   isar_flutter_libs: ^3.1.0+1
+  freezed_annotation: ^2.2.0
 
   #network
   dio: ^5.8.0+1
@@ -39,6 +40,7 @@ dependencies:
   alice: ^1.0.0-dev.12 # network log screen
   alice_dio: ^1.0.4
   url_launcher: ^6.3.1
+  uuid: ^4.5.1
 
   #ui - util
   #  flutter_keyboard_visibility: ^6.0.0
@@ -52,17 +54,21 @@ dependencies:
   firebase_core: ^3.12.1
   firebase_analytics: ^11.4.5
   firebase_crashlytics: ^4.3.5
-  path_provider: ^2.1.5
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+
 #  firebase_messaging: ^15.2.4
 
 dependency_overrides:
 #  # velocity_x 와 velocity_x 에서 사용하는 intl 버전이 달라 충돌이 발생하기에 intl를 0.20.2 버전으로 override 고정
   intl: ^0.20.2
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  freezed: ^2.3.4
   isar_generator: ^3.1.0+1
   build_runner: ^2.4.13
 

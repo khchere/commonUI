@@ -1,4 +1,5 @@
 export 'package:common_ui/common/constant/app_colors.dart';
+export 'package:common_ui/common/db/local_db.dart';
 export 'package:common_ui/common/extension/context_extension.dart';
 export 'package:common_ui/common/extension/num_extension.dart';
 export 'package:common_ui/common/extension/snackbar_context_extension.dart';
