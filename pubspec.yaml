@@ -26,7 +26,7 @@ dependencies:
   shared_preferences: ^2.5.2
   path_provider: ^2.1.5 # 내부 경로 사용을 위한 패키지
   isar: ^3.1.0+1  #local db
-  isar_flutter_libs: ^3.1.0+1
+#  isar_flutter_libs: ^3.1.0+1
   freezed_annotation: ^2.2.0
 
   #network
@@ -48,7 +48,7 @@ dependencies:
     git:
       url: https://github.com/BansookNam/keyboard_utils.git
       ref: 'master'
-
+  google_fonts: ^6.2.1
 
   #firebase
   firebase_core: ^3.12.1
@@ -58,6 +58,7 @@ dependencies:
   json_serializable: ^6.8.0
 
 #  firebase_messaging: ^15.2.4
+
 
 dependency_overrides:
 #  # velocity_x 와 velocity_x 에서 사용하는 intl 버전이 달라 충돌이 발생하기에 intl를 0.20.2 버전으로 override 고정
@@ -69,7 +70,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
   freezed: ^2.3.4
-  isar_generator: ^3.1.0+1
+#  isar_generator: ^3.1.0+1
   build_runner: ^2.4.13
 
 # For information on the generic Dart part of this file, see the
